@@ -174,7 +174,6 @@ void delete_bst(node* t) {
         delete_bst(t->left);
         delete_bst(t->right);
         free(t);
-        printf("1");
     }
 }
 
@@ -199,4 +198,6 @@ void main() {
     printf("30 deleted\n");
     show_nodes(t,0);
     delete_bst(t);
+    t = NULL;
+    show_nodes(t,0);
 }
