@@ -1,0 +1,13 @@
+Q1:
+Complexité = O(n²)
+(2 boucle imbriqué)
+Q2:
+non car si on assume que la list contient 10**8 element on obtient temp_necessaire = 10**12 / 10**8 = 10**4 
+q3:
+pour une liste trié la complexité devient O(n)
+Q4:
+(code est dans le doc Ex2)
+Q5:
+complexité = O(nlog(n)) car le tri possede une complexité O(nlog(n)) et la verfication des doublons possede une complexité O(n)
+Q6:
+temp_necessaire = 10**6 * log(10**6) = 1.99315685693 * 10**7 
